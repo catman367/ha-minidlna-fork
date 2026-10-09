@@ -1,5 +1,5 @@
 # Disclaimer
-This is a custom fork patched using AI to resolve legacy Home Assistant runtime bugs, fixing `s6-overlay` PID 1 crash loops and migrating to a stable Debian Bookworm base.
+This is a custom fork patched using AI to resolve legacy Home Assistant runtime bugs, fixing `s6-overlay` PID 1 crash loops and migrating to a stable Debian Bookworm base. Please note that this repository is not fully maintained; it was created to fix specific critical bugs for personal use, though occasional issues may be patched as needed.
 
 # Home Assistant Add-on: MiniDLNA
 
