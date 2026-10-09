@@ -11,7 +11,7 @@ ENTRYPOINT ["/run.sh"]
 
 # Labels
 LABEL \
-    io.hass.name="MiniDLNA-patched" \
+    io.hass.name="HA-MiniDLNA-Fork" \
     io.hass.description="RedyMedia MiniDLNA daemon serves media files (music, pictures, and video) to clients on a network" \
     io.hass.arch="${BUILD_ARCH}" \
     io.hass.type="addon" \
