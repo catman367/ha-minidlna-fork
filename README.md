@@ -1,4 +1,4 @@
-#Disclaimer
+# Disclaimer
 This is a fork I made and used AI to fix the main issues with code meant for older Home Assistant and make a good description. I did not touch anything else or the rest of this readme besides changing the install url.
 
 # Home Assistant Add-ons
