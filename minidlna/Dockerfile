@@ -1,4 +1,4 @@
-FROM debian:buster
+FROM debian:bookworm
 
 RUN apt-get update && apt-get upgrade -y --force-yes -qq && apt-get install -y minidlna procps nano jq
 ADD ./minidlna.conf /etc/minidlna.conf
