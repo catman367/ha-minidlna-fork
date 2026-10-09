@@ -1,4 +1,4 @@
-This is a fork I made and used AI to fix the main issues with code meant for older Home assistant. I did not touch anything else or the rest of this readme.
+This is a fork I made and used AI to fix the main issues with code meant for older Home Assistant. I did not touch anything else or the rest of this readme.
 
 # Home Assistant Add-ons
 
