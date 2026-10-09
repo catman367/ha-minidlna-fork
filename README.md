@@ -9,7 +9,7 @@ A dedicated, optimized **MiniDLNA (ReadyMedia)** server add-on for Home Assistan
 ## Installation
 1. Go to **Settings** ➡️ **Add-ons** ➡️ **Add-on Store** in Home Assistant.
 2. Click the **three dots** and select **Repositories**.
-3. Add the URL: `https://github.com`
+3. Add the URL: `https://github.com/catman367/ha-minidlna-fork`
 4. Find **MiniDLNA (Community Fork)** and click **Install**.
 
 ## Add-ons Provided
