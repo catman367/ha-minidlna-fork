@@ -1,11 +1,12 @@
 {
-  "name": "MiniDLNA",
-  "version": "0.1.16",
+  "name": "MiniDLNA (Community Fork)",
+  "version": "0.1.18",
   "slug": "minidlna",
-  "description": "RedyMedia MiniDLNA daemon serves media files (music, pictures, and video) to clients on a network",
-  "url": "https://github.com/bvlaicu/home-assistant-addons/tree/master/minidlna",
+  "description": "An updated, stable MiniDLNA server for streaming music, pictures, and videos across your home network. Fixed for modern Home Assistant and HAOS environments.",
+  "url": "https://github.com",
   "arch": ["aarch64", "amd64", "armhf", "armv7", "i386"],
   "startup": "services",
+  "init": false,
   "homeassistant": "0.92.0b2",
   "map": ["share:rw", "media:rw", "ssl"],
   "boot": "auto",
@@ -16,28 +17,12 @@
   "host_network": true,
   "options": {
     "log_level": "info",
-    "envvars": [
-      {
-        "name": "MINIDLNA_log_level",
-        "value": "general=info,artwork,database,inotify,scanner,metadata,http,ssdp,tivo=warn"
-      },
-      {
-        "name": "MINIDLNA_friendly_name",
-        "value": "Photos"
-      },
-      {
-        "name": "MINIDLNA_media_dir",
-        "value": "/share/NAS/Photo"
-      }
-    ]
+    "friendly_name": "Photos",
+    "media_dir": "/share/NAS/Photo"
   },
   "schema": {
     "log_level": "list(trace|debug|info|notice|warning|error|fatal)",
-    "envvars": [
-      {
-        "name": "match(^MINIDLNA_([a-zA-Z0-9_])+$)",
-        "value": "str"
-      }
-    ]
+    "friendly_name": "str",
+    "media_dir": "str"
   }
 }
