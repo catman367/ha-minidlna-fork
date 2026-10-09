@@ -1,4 +1,4 @@
-This is a fork I made and used AI to fix the main issues with code meant for older Home Assistant. I did not touch anything else or the rest of this readme.
+This is a fork I made and used AI to fix the main issues with code meant for older Home Assistant. I did not touch anything else or the rest of this readme besides changing the install url.
 
 # Home Assistant Add-ons
 
@@ -15,7 +15,7 @@ In the Home Assistant add-on store, a possibility to add a repository is provide
 Use the following URL to add this repository:
 
 ```txt
-https://github.com/bvlaicu/home-assistant-addons
+https://github.com/catman367/z
 ```
 
 ## Add-ons provided by this repository
